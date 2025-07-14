@@ -54,3 +54,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+WIDTH, HEIGHT = 400, 600
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Volleyball Reaction Game")
