@@ -49,7 +49,7 @@ label.write("Start Game", align="center", font=("Arial", 16, "bold"))
 score = 0
 lives = 3
 ball_y = 250
-ball_speed = 1.5
+ball_speed = 1.9
 ball_direction = "down"
 zone_speed = 6
 zone_direction = 1
@@ -118,9 +118,6 @@ while True:
 
     screen.update()
     time.sleep(0.04)
-
-score_display.write("Good job! You did great ", align="center", font=("Arial", 14, "italic"))
-
 
 
 
