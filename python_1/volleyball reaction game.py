@@ -7,14 +7,14 @@ screen.bgcolor("white")
 screen.setup(width=400, height=600)
 screen.tracer(0)
 
-# Ball setup
+# This setups the ball color and shapes
 ball = turtle.Turtle()
 ball.shape("circle")
 ball.color("blue")
 ball.penup()
 ball.goto(0, 250)
 
-# Zone setup
+# Where to spike the volleyball into the zone
 zone = turtle.Turtle()
 zone.shape("square")
 zone.shapesize(stretch_wid=1, stretch_len=5)
@@ -22,7 +22,7 @@ zone.color("green")
 zone.penup()
 zone.goto(0, -220)
 
-# Score display
+# The display of the score
 score_display = turtle.Turtle()
 score_display.hideturtle()
 score_display.penup()
@@ -30,7 +30,7 @@ score_display.goto(-180, 260)
 score_display.color("black")
 score_display.write("Score: 0  Lives: 3", font=("Arial", 14, "bold"))
 
-# Start Game Button setup
+# Button to start the game
 game_started = False
 start_button = turtle.Turtle()
 start_button.shape("square")
@@ -85,7 +85,7 @@ screen.listen()
 screen.onkey(hit, "space")
 screen.onclick(start_game)
 
-# Game loop
+# Resets the point of where you start and end in the game
 while True:
     if not game_started:
         screen.update()
