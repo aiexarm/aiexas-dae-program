@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvs4josiwgwex"
-path="res://.godot/imported/ATTACK 3.png-ced3f34f85c1404105d32f8e058d8494.ctex"
+uid="uid://e6swtsk04gg8"
+path="res://.godot/imported/column_8.png-800a9321d359df10fa047c6a7a8e5cf0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/without_outline/ATTACK 3.png"
-dest_files=["res://.godot/imported/ATTACK 3.png-ced3f34f85c1404105d32f8e058d8494.ctex"]
+source_file="res://assets/Tiles/column_8.png"
+dest_files=["res://.godot/imported/column_8.png-800a9321d359df10fa047c6a7a8e5cf0.ctex"]
 
 [params]
 
