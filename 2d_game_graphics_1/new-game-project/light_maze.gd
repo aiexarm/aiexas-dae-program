@@ -65,7 +65,7 @@ func draw_maze():
 	for r in range(ROWS):
 		for c in range(COLS):
 			var tile_type = WALL if maze [r][c] == 1 else PATH
-			tilemaplayer.set_(Vector2i(c, r),0, tile_type)
+			tilemaplayer.set_(Vector2i(c, r), 0, tile_type)
 	
 func _process(delta: float) -> void:
 	pass
