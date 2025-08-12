@@ -75,7 +75,6 @@ texture = ExtResource("8_573a2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WalkKnight2"]
 position = Vector2(248.203, -57.1777)
-scale = Vector2(1, 1)
 shape = SubResource("CircleShape2D_c442i")
 
 [node name="Scroll1" type="Sprite2D" parent="."]

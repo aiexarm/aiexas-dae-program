@@ -49,7 +49,6 @@ func _process(delta):
 				_handle_input(direction)
 		buffer = ""
 
-
 # Quicksand signals
 func _on_body_entered(body):
 	if body.is_in_group("player"):
